@@ -38,3 +38,12 @@ h2 {
     color: var(--brown);
     font-size: 3.5vmin;
 }
+
+h2 a {
+    color: var(--brown);
+    text-decoration: underline;
+}
+
+h2 a:hover {
+    color: var(--navy);
+}
