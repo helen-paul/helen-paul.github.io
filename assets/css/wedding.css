@@ -1,0 +1,40 @@
+@font-face {
+    font-family: modernline;
+    src: url('../font/modernline.otf');
+}
+:root {
+    --navy: #314255;
+    --brown: #a1602f;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16pt;
+}
+
+.masthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
+    overflow: hidden;
+    background-size: cover !important;
+    background: url('../img/header.png') no-repeat center center scroll;
+}
+
+h1 {
+    font-family: modernline, cursive;
+    color: var(--navy);
+    font-size: 10vmin;
+    margin-bottom: 10vmin;
+    margin-top: 5vmin;
+}
+
+h2 {
+    color: var(--brown);
+    font-size: 3.5vmin;
+}
