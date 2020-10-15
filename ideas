@@ -1,0 +1,47 @@
+<!-- Place after welcome! section -->
+<section>
+    <a id="tidbits">
+    <h2 class="text-center">Tidbits</h2>
+    <div class="tidbit">
+        <div class="question">Who's going to take out the trash?</div>
+        <div class="answer">Paul almost always takes out the trash. But he is quite bad (Helen says, "very bad") at remembering to put a new bag in the bin!</div>    
+    </div>
+    <div class="tidbit">
+        <div class="question">What's the best meal we have eaten together?</div>
+        <div class="answer">Totally not the seafood platter that we shared at the Seafood Café on Loch Leven. It couldn't be. Helen's parents would disown her for saying that.</div>
+    </div>
+    <div class="tidbit">
+        <div class="question">What's the most memorable trip we have taken together?</div>
+        <div class="answer">We spent an amazing week in New York early in 2019. It was mostly a week of wandering, eating and drinking. We vaguely remember some cultural stuff, too.</div>
+    </div>
+    <div class="tidbit">
+        <div class="question">What can we always agree on?</div>
+        <div class="answer">Most things. Except art; Helen has no taste.</div>
+    </div>
+    <div class="tidbit">
+        <div class="question">What is a life goal that we share?</div>
+        <div class="answer">Living together in a beachside cottage.</div>
+    </div>
+    <div class="tidbit">
+        <div class="question">What is the most spontaneous thing we have done together?</div>
+        <div class="answer">Paul does not to spontonaity. Helen does that by herself.</div>
+    </div>                    
+    <div class="tidbit">
+        <div class="question">What is the dorkiest thing about us?</div>
+        <div class="answer">Paul.</div>
+    </div>
+</section>
+
+<!-- Place before Q&A section -->
+<a id="travel">
+    <section class="travel">
+        <h2 class="text-center">Travel</h2>
+        <div class="travel-item d-flex flex-row">
+            <h3>Flying to Inverness</h3>
+            <span class="line"></span>
+        </div>
+        <div class="travel-item d-flex flex-row">
+            <h3>Arrival by Car</h3>
+            <span class="line"></span>
+        </div>
+    </section>

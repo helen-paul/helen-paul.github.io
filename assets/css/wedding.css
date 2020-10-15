@@ -2,48 +2,178 @@
     font-family: modernline;
     src: url('../font/modernline.otf');
 }
+
 :root {
-    --navy: #43576E;
-    --brown: #a1602f;
+    --navy: #4E5876;
+    --lightblue: #a2b8bc;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 3px;
-    font-size: 16pt;
+    font-size: 11pt;
+    line-height: 1.5;
 }
 
-.masthead {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+a {
+    color: var(--navy);
+}
+
+nav {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.left h1 {
+    font-family: modernline;
+    font-weight: bolder;
+    color: white;
+    font-size: 6rem;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+footer,
+section {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 1px solid var(--lightblue);
+}
+
+section h2 {
+    font-family: modernline;
+    font-size: 2rem;
+    margin-bottom: 5vh;
+    font-weight: bold;
+}
+
+section h3 {
+    font-size: 1.5rem;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+}
+
+.navbar {
+    border-bottom: 1px solid var(--lightblue);
+    background-color: var(--navy);
+}
+
+.left {
+    height: 100vh;
+    background-image: url('../img/photo2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right {
+    max-height: 100vh;
+    overflow: scroll !important;
+}
+
+.intro {
+    padding-top: 80vh;
+    height: 100vh;
+    border-bottom: none;
+    background-image: url('../img/decoration.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.question-wrapper {
+    margin-bottom: 1.8rem;
+}
+
+.question {
+    margin-bottom: 0.3rem;
+}
+
+.answer:before,
+.question:before {
+    font-weight: bold;
+    margin-right: 20px;
+    color: var(--navy);
+}
+
+.answer:before {
+    content: "A.";
+}
+
+.question::before {
+    content: "Q.";
+}
+
+.day,
+.travel-item {
+    margin-bottom: 2rem;
+}
+
+.venue h3,
+.day h3,
+.travel-item h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 0 12px 0 0;
+    display: inline;
+    margin-bottom: -7px;
+    background-color: white;
+    font-weight: bold;
+    color: var(--navy);
+}
+
+.venue .line,
+.day .line,
+.travel-item .line {
+    height: 1px;
     width: 100%;
-    height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
-    overflow: hidden;
-    background-size: cover !important;
-    background: url('../img/header.png') no-repeat center center scroll;
+    display: block;
+    background-color: var(--navy);
+    margin-top: 15px;
 }
 
-h1 {
-    font-family: modernline, cursive;
+.venue-pic {
+    width: 100%;
+    border-radius: 1%;
+    margin-bottom: 1rem;
+}
+
+.subsection {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer {
+    background-image: url('../img/footer.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+footer h2 {
+    font-size: 1rem;
+    font-weight: bold;
     color: var(--navy);
-    font-size: 10vmin;
-    margin-bottom: 10vmin;
-    margin-top: 5vmin;
 }
 
-h2 {
-    color: var(--brown);
-    font-size: 3.5vmin;
+section.qa {
+    border-bottom: none;
 }
 
-h2 a {
-    color: var(--brown);
-    text-decoration: underline;
-}
-
-h2 a:hover {
-    color: var(--navy);
+@media (max-width: 767.98px) {
+    .right {
+        max-height: none;
+    }
 }
