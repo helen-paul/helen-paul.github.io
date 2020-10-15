@@ -51,7 +51,7 @@ section h2 {
 }
 
 section h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .no-gutters {
@@ -84,7 +84,7 @@ section h3 {
 }
 
 .intro {
-    padding-top: 80vh;
+    padding-top: 77vh;
     height: 100vh;
     border-bottom: none;
     background-image: url('../img/decoration.png');
@@ -176,4 +176,14 @@ section.qa {
     .right {
         max-height: none;
     }
+}
+
+.right h3 {
+    text-transform: uppercase;
+}
+
+.normal-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
