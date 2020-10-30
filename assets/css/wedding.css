@@ -83,7 +83,7 @@ section h3 {
     overflow: scroll !important;
 }
 
-.intro {
+#intro {
     padding-top: 77vh;
     height: 100vh;
     border-bottom: none;
@@ -121,7 +121,7 @@ section h3 {
     margin-bottom: 2rem;
 }
 
-.venue h3,
+#venue h3,
 .day h3,
 .travel-item h3 {
     text-transform: uppercase;
@@ -134,7 +134,7 @@ section h3 {
     color: var(--navy);
 }
 
-.venue .line,
+#venue .line,
 .day .line,
 .travel-item .line {
     height: 1px;
@@ -173,6 +173,10 @@ section.qa {
 }
 
 @media (max-width: 767.98px) {
+    #intro h3 {
+        margin-bottom: 12rem !important;
+    }
+
     .right {
         max-height: none;
     }
