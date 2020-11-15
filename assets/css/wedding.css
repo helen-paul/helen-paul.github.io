@@ -93,6 +93,11 @@ section h3 {
     background-position: center;
 }
 
+.address {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
 .question-wrapper {
     margin-bottom: 1.8rem;
 }
