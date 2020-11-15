@@ -20,8 +20,8 @@ a {
 }
 
 nav {
-    color: rgba(0, 0, 0, 0.3) !important;
-    background-color: white;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .left h1 {
