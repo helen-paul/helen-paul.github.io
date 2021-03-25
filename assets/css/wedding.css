@@ -195,3 +195,9 @@ section.qa {
     font-weight: lighter;
     text-transform: uppercase;
 }
+
+.covid {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px;
+}
