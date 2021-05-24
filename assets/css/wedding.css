@@ -203,3 +203,18 @@ section.qa {
     border: 1px solid black;
     padding: 20px;
 }
+
+.button {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--navy);
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    color: var(--navy);
+    border: 1px solid var(--navy);
+    text-decoration: none;
+}
